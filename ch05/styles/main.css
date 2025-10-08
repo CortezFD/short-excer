@@ -10,8 +10,11 @@ body {
     width: 90%;
     margin: 1em, auto;
 border-style: double;
-border-color:rebeccapurple
+border-color:rebeccapurple;
 }
 html {
     background-color: aliceblue;
+}
+main {
+    padding: 1em;
 }
