@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 90%;
-    margin: 1em, auto;
-    border: double rebeccapurple;
+   
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-
+    width: 90%;
+    margin: 1em, auto;
+    border: double rebeccapurple;
 }
 html {
     background-color: aliceblue;
