@@ -24,3 +24,8 @@ main {
 footer {
     border: 1px rebeccapurple;
 }
+
+img {
+    float: left;
+    margin-right: 1em;
+}
