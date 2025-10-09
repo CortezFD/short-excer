@@ -38,10 +38,14 @@ img {
 }
 h2 {
     padding: 1em;
+    margin: 0.5em 0;
 }
 ul li {
     padding-left: 1.90em;
 }
 h2 {
     padding-left: .70em;
+}
+ul {
+    padding-left: 30px;
 }
