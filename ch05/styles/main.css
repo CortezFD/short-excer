@@ -19,6 +19,7 @@ body{
     border:2px rebeccapurple;
     border-style: double;
     width: 90%;
+    margin: 1em auto;
 }
 html {
     background-color: aliceblue;
