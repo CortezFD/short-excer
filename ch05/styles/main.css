@@ -11,8 +11,7 @@ body {
     
 }
 body{
-        border-style: 2px double;
-    border-color:rebeccapurple;
+    border:2px double rebeccapurple;
     width: 90%;
 }
 html {
