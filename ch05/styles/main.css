@@ -33,3 +33,6 @@ img {
 h2 {
     padding: 1em;
 }
+ul li {
+    padding-left: 0.5em;
+}
