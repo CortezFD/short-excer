@@ -11,6 +11,7 @@ body {
     margin: 1em, auto;
 border-style: 2px double;
 border-color:rebeccapurple;
+    text-align: center;
 }
 html {
     background-color: aliceblue;
@@ -20,6 +21,8 @@ main {
 }
 footer {
     border: 2px rebeccapurple;
+    height: 50px;
+    text-align: center;
 }
 img {
     float: left;
