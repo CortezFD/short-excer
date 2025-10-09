@@ -9,9 +9,8 @@ body {
     font-size: 100%;
     width: 90%;
     margin: 1em, auto;
-border-style: 2px double;
-border-color:rebeccapurple;
-    text-align: center;
+    border-style: 2px double;
+    border-color:rebeccapurple;
 }
 html {
     background-color: aliceblue;
