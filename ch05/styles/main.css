@@ -17,6 +17,7 @@ body{
     border-style: double;
     width: 90%;
     margin: 1em auto;
+    margin-top: -1em;
 }
 html {
     background-color: aliceblue;
@@ -25,7 +26,7 @@ main {
     padding: 1em;
 }
 footer {
-    border: 3px rebeccapurple;
+    border: 2px rebeccapurple;
     border-style:solid;
     text-align: center;
     margin-top: 0.3em;
