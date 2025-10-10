@@ -26,6 +26,7 @@ main {
 }
 footer {
     border: 3px rebeccapurple;
+    border-style:solid;
     text-align: center;
     margin-top: 0.3em;
     padding : 0.5em;
@@ -81,4 +82,7 @@ h1 {
 h3 {
     font-size: 115%;
     padding-left: 0.75em;;
+}
+#marginf {
+    margin-bottom: 0.5em;
 }
