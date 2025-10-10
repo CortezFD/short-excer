@@ -53,5 +53,11 @@ ul {
     margin-bottom: 0.5em;
 }
 blockquote {
-    padding-left: .70em;
+    padding-left: .80em;
+}
+#pq1 {
+    padding-left: .80em;
+}
+#pq2 {
+    padding-left: .80em;
 }
