@@ -31,6 +31,7 @@ footer {
     border: 2px rebeccapurple;
     border-style: double;
     text-align: center;
+    margin-top: 0.3em;
 }
 img {
     float: left;
@@ -50,4 +51,7 @@ ul {
     padding-left: 30px;
     
 
+}
+#p1 {
+    margin-bottom: 0.5em;
 }
