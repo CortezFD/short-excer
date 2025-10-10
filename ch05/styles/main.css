@@ -25,7 +25,7 @@ main {
     padding: 1em;
 }
 footer {
-    border: 1px rebeccapurple;
+    border: 3px rebeccapurple;
     border-style: double;
     text-align: center;
     margin-top: 0.3em;
