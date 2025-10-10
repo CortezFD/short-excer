@@ -16,7 +16,7 @@ body{
     width: 90%;
 }
 body{
-    border:2px rebeccapurple;
+    border:3px rebeccapurple;
     border-style: double;
     width: 90%;
     margin: 1em auto;
@@ -28,7 +28,7 @@ main {
     padding: 1em;
 }
 footer {
-    border: 2px rebeccapurple;
+    border: 3px rebeccapurple;
     border-style: double;
     text-align: center;
     margin-top: 0.3em;
