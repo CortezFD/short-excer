@@ -44,7 +44,7 @@ h2 {
     font-size: 125%;
 }
 ul li {
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 h2 {
     padding-left: .70em;
@@ -62,9 +62,13 @@ blockquote {
 }
 #pq1 {
     padding-left: .80em;
+    margin-bottom: 0.5em;
+    color: rebeccapurple;
 }
 #pq2 {
     padding-left: .80em;
+    margin-bottom: 0.5em;
+    color: rebeccapurple;
 }
 h1 {
     font-size: 150%;
@@ -73,5 +77,5 @@ h1 {
 }
 h3 {
     font-size: 115%;
-    padding-left: 0.70em;;
+    padding-left: 0.75em;;
 }
