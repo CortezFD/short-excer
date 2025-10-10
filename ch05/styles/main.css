@@ -30,6 +30,8 @@ footer {
     text-align: center;
     margin-top: 0.3em;
     padding : 0.5em;
+    color: rebeccapurple;
+    font-size: 90%;
 
 }
 img {
@@ -71,4 +73,5 @@ h1 {
 }
 h3 {
     font-size: 115%;
+    padding-left: 0.70em;;
 }
