@@ -29,6 +29,8 @@ footer {
     border-style: double;
     text-align: center;
     margin-top: 0.3em;
+    padding : 0.5em;
+
 }
 img {
     float: left;
@@ -60,4 +62,8 @@ blockquote {
 }
 #pq2 {
     padding-left: .80em;
+}
+h1 {
+    font-size: 150%;
+    color: rebeccapurple;
 }
