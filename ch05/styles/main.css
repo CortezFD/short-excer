@@ -13,11 +13,11 @@ body {
 
 
 body{
-    border:7px rebeccapurple;
+    border:9px rebeccapurple;
     border-style: double;
     width: 90%;
     margin: 1em auto;
-    margin-top: -.05em;
+    margin-top: -.04em;
 }
 html {
     background-color: aliceblue;
