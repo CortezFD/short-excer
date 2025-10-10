@@ -39,6 +39,7 @@ img {
 h2 {
     padding: 0.1em;
     margin: 0.5em 0;
+    font-size: 125%;
 }
 ul li {
     padding-left: 1em;
@@ -66,4 +67,8 @@ blockquote {
 h1 {
     font-size: 150%;
     color: rebeccapurple;
+    padding: 0.7em;
+}
+h3 {
+    font-size: 115%;
 }
