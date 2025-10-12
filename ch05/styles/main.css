@@ -22,6 +22,8 @@ body{
     border:9px var(--main-text-color);
     border-style: double;
     width: 90%;
+    margin: 1em auto;
+    margin-top: -.04em;
 }
 html {
     background-color: var(--main-bg-color);
