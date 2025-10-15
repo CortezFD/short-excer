@@ -69,6 +69,7 @@ section {
 article {
 	& img {
 		border: 1px solid var(--dark);
+		float: left;
 	}
 }
 
