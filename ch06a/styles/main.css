@@ -19,7 +19,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 80%;
-	width: 962px;
     margin: auto;
     border: 3px solid var(--primary-color);
 }
@@ -56,8 +55,6 @@ header {
 
 /* the styles for the main element */
 main {
-	width: 600px;
-	float: right;
 	clear: left;
 }
 
@@ -72,21 +69,17 @@ section {
 article {
 	& img {
 		border: 1px solid var(--dark);
-		float: left;
 	}
 }
 
 /* the styles for the aside */
 aside {
-	
 	& h2 {
 		color: var(--primary-color);
 	}
 	& img {
 		margin-bottom: .9em;
 	}
-	width: 360px;
-	float: left;
 }
 
 /* the styles for the footer */
