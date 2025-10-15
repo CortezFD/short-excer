@@ -61,7 +61,7 @@ main {
 
 /* the styles for the section */
 section {
-	flex-basis:65%
+	flex-basis:65%;
 	& h1 {
 		color: var(--primary-color);
 	}
