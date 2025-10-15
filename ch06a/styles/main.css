@@ -56,10 +56,12 @@ header {
 /* the styles for the main element */
 main {
 	clear: left;
+	display: flex;
 }
 
 /* the styles for the section */
 section {
+	flex-basis:65%
 	& h1 {
 		color: var(--primary-color);
 	}
@@ -74,6 +76,7 @@ article {
 
 /* the styles for the aside */
 aside {
+	flex-basis: 35%;
 	& h2 {
 		color: var(--primary-color);
 	}
