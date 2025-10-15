@@ -78,14 +78,15 @@ article {
 
 /* the styles for the aside */
 aside {
-	width: 360px;
-	float: left;
+	
 	& h2 {
 		color: var(--primary-color);
 	}
 	& img {
 		margin-bottom: .9em;
 	}
+	width: 360px;
+	float: left;
 }
 
 /* the styles for the footer */
