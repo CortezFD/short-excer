@@ -72,6 +72,8 @@ section {
 article {
 	& img {
 		border: 1px solid var(--dark);
+		float: left;
+		margin: 0.5em 1em 1em 0;
 	}
 }
 
@@ -96,4 +98,3 @@ footer {
 		padding-bottom: 0; 
 	}
 }
-img { float: left;}
