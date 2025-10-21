@@ -104,5 +104,7 @@ footer {
 
 #nav_list ul li a{
 	text-decoration: none;
+	display: block;
+	width: 170px;
 	background-color: var(--primary-color);
 }
