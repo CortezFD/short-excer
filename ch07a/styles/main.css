@@ -101,3 +101,7 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
+#nav_list ul li a{
+	text-decoration: none;
+}
