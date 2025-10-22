@@ -108,3 +108,6 @@ footer {
 	padding: 1em;;
 	background-color: var(--primary-color);
 }
+nav {
+	width: 40%;
+}
