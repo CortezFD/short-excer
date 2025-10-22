@@ -107,6 +107,8 @@ footer {
 	display: block;
 	padding: 0.5em;;
 	background-color: var(--primary-color);
+	display: flex;
+	flex-direction: column;
 }
 nav {
 	width: 100%;
@@ -115,8 +117,3 @@ nav {
 h3 {
 	padding-bottom: 0em;
 }
-ul {
-	display: flex;
-	flex-direction: column;
-}
-]
