@@ -105,5 +105,6 @@ footer {
 #nav_list ul li a h3{
 	text-decoration: none;
 	display: block;
+	padding: 1em;;
 	background-color: var(--primary-color);
 }
