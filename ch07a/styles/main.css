@@ -102,9 +102,8 @@ footer {
 	}
 }
 
-#nav_list ul li a{
+#nav_list ul li a h3{
 	text-decoration: none;
 	display: block;
-	width: 170px;
 	background-color: var(--primary-color);
 }
