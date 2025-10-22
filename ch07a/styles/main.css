@@ -130,3 +130,6 @@ a.current {
 	background-color: var(--primary-color);
 	text-decoration: none;
 }
+aside {
+	padding-left: 1em;
+}
