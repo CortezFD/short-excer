@@ -133,3 +133,6 @@ a.current {
 aside {
 	padding-left: 0.5em;
 }
+a:hover, a:focus {
+	color: var(--accent-color);
+}
