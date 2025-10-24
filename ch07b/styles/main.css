@@ -129,10 +129,8 @@ nav {
 	Display: block;
 	width: 100%;
 	padding: 1em 2.39em;
-	color: var(--primary-color);
 	text-decoration: none;
 	background-color: var(--primary-color);
-	color: var(--light-accent);
 	justify-content: space-evenly;
 }
 
