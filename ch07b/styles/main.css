@@ -110,6 +110,9 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+	ul {
+		list-style: none;
+	}
 .menu {
 	display: flex;
 	justify-content: space-around;
