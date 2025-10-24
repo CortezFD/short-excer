@@ -164,7 +164,6 @@ ul {
 	position: absolute;
 	left: 0;       
 	background-color: var(--primary-color);
-	width: 175%;
 	display: none;}
 a.current {
 	 color: #f6bb73;
