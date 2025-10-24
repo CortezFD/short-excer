@@ -116,6 +116,7 @@ footer {
 }
 .menu li:has(.submenu) {
 	position: relative;
+
 	& small {
 		margin-left: .25em;
 	}
@@ -123,10 +124,10 @@ footer {
 		display: block;
 	}
 }
+}
 .submenu {
 	position: absolute;
 	left: 0;
 	background-color: var(--primary-color);
 	width: 175%;
-	display: none;
-}
+	display: none;}
