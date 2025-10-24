@@ -133,6 +133,7 @@ nav {
 	text-decoration: none;
 	background-color: var(--primary-color);
 	color: var(--light-accent);
+	justify-content: space-evenly;
 }
 }
 	
