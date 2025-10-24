@@ -126,12 +126,11 @@ footer {
 	text-align: center;
 	Display: block;
 	width: 100%;
-	padding: 1em 0em;
+	padding: 1em 2.39em;
 	color: var(--primary-color);
 	text-decoration: none;
 	background-color: var(--primary-color);
 	color: var(--light-accent);
-	font-weight: bold;
 }
 }
 	
