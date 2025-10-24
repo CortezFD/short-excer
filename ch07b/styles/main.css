@@ -113,6 +113,12 @@ footer {
 }
 .menu li:has(.submenu) {
 	position: relative;
+	& small {
+		margin-left: .25em;
+	}
+	&:hover .submenu {
+		display: block;
+	}
 }
 .submenu {
 	position: absolute;
