@@ -118,7 +118,7 @@ nav {
 }
 .navbar ul{
 	list-style-type: none;
-
+position: relative
 }
 .navbar ul li {
 	float: left;
@@ -173,3 +173,4 @@ a.current {
 a.current:hover{
 	font-style: normal;
 }
+.navbar 
