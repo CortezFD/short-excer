@@ -110,6 +110,9 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+.menu {
+	display: flex;
+	justify-content: space-around;
 }
 .menu li:has(.submenu) {
 	position: relative;
