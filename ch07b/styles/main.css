@@ -118,6 +118,6 @@ footer {
 	position: absolute;
 	left: 0;
 	background-color: var(--primary-color);
-	width: 100%;
+	width: 175%;
 	display: none;
 }
