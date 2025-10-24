@@ -121,9 +121,13 @@ footer {
 	
 	display: flex;
 	flex-direction: column;
+	
 .menu {
 	display: flex;
+	flex-direction: row;
+	background-color: var(--primary-color);
 	justify-content: space-around;
+}
 }
 .menu li:has(.submenu) {
 	position: relative;
