@@ -113,6 +113,13 @@ footer {
 	ul {
 		list-style: none;
 	}
+	#navbar ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 0.5em;
+	
+	display: flex;
+	flex-direction: column;
 .menu {
 	display: flex;
 	justify-content: space-around;
@@ -130,7 +137,7 @@ footer {
 }
 .submenu {
 	position: absolute;
-	left: 0;
+	left: 0;       
 	background-color: var(--primary-color);
 	width: 175%;
 	display: none;}
