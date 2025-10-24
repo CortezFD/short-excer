@@ -114,13 +114,21 @@ footer {
 		list-style: none;
 	}
 }
-.navbar ul li a{
-	text-decoration: none;
+.navbar ul{
+	list-style-type: none;
+
+}
+.navbar ul li {
+	width: 175%;
+}
+
+.navbar ul li a {
 	display: block;
-	padding: 0.5em;
-	
-	display: flex;
-	flex-direction: row;
+	padding: .5em 0 .5em 1.5em;
+	text-decoration: none;
+	color: var(--primary-color);
+}
+}
 	
 .menu {
 	display: flex;
@@ -128,7 +136,7 @@ footer {
 	background-color: var(--primary-color);
 	justify-content: space-around;
 }
-}
+
 .menu li:has(.submenu) {
 	position: relative;
 
