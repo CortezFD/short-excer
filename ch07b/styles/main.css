@@ -111,3 +111,13 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+.menu li:has(.submenu) {
+	position: relative;
+}
+.submenu {
+	position: absolute;
+	left: 0;
+	background-color: var(--primary-color);
+	width: 100%;
+	display: none;
+}
