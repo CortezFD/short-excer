@@ -132,6 +132,7 @@ nav {
 	text-decoration: none;
 	background-color: var(--primary-color);
 	justify-content: space-evenly;
+	font-style: normal;
 }
 
 	
