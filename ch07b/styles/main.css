@@ -135,15 +135,19 @@ nav {
 	color: var(--light-accent);
 	justify-content: space-evenly;
 }
-}
+
 	
 .menu {
 	display: flex;
 	flex-direction: row;
 	background-color: var(--primary-color);
-	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
 }
-
+.menu li {
+	flex: 1;
+	
+}
 .menu li:has(.submenu) {
 	position: relative;
 
