@@ -113,7 +113,8 @@ footer {
 	ul {
 		list-style: none;
 	}
-	#navbar ul li a{
+}
+.navbar ul li a{
 	text-decoration: none;
 	display: block;
 	padding: 0.5em;
