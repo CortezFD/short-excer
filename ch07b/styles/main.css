@@ -167,3 +167,10 @@ ul {
 	background-color: var(--primary-color);
 	width: 175%;
 	display: none;}
+#current {
+	 color: #f6bb73;
+
+}
+a #current:hover{
+	font-style: normal;
+}
