@@ -119,15 +119,19 @@ footer {
 
 }
 .navbar ul li {
-	width: 175%;
-	display: inline;
+	float: left;
 }
 
 .navbar ul li a {
 	text-align: center;
-	padding: .5em 0 .5em 1.5em;
-	text-decoration: none;
+	Display: block;
+	width: 175px;
+	padding: 1em 0l;
 	color: var(--primary-color);
+	text-decoration: none;
+	background-color: var(--primary-color);
+	color: var(--light-accent);
+	font-weight: bold;
 }
 }
 	
