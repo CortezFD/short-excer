@@ -173,23 +173,3 @@ a.current {
 a.current:hover{
 	font-style: normal;
 }
-.navbar ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-
-}
-.navbar ul ul li {
-	float: none;
-	
-}
-.navbar ul li:hover > ul {
-	display: block;
-}
-.navbar >::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-	
-}
