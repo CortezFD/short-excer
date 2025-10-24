@@ -167,9 +167,9 @@ ul {
 	background-color: var(--primary-color);
 	width: 175%;
 	display: none;}
-.current {
+a.current {
 	 color: #f6bb73;
-
+	 text-decoration: none;
 }
 a.current:hover{
 	font-style: normal;
