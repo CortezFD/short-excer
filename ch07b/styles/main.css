@@ -114,6 +114,9 @@ footer {
 		list-style: none;
 	}
 }
+nav {
+	flex-grow: 1;
+}
 .navbar ul{
 	list-style-type: none;
 
