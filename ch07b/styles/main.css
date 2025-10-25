@@ -171,3 +171,26 @@ a.current {
 a.current:hover{
 	font-style: normal;
 }
+#navsubmenu ul{
+	list-style: none;
+	position: relative;
+}
+#navsubmenu ul li {
+	float: left;
+}
+#navsubmenu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#navsubmenu ul ul li{
+	float: none;
+}
+#navsubmenu ul li:hover > ul {
+	display: block;
+}
+#navsubmenu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
