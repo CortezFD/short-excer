@@ -193,3 +193,6 @@ a.current:hover{
 	display: block;
 	clear: both;
 }
+.navbar .submenu-item:hover .submenu {
+	display: block;
+}
