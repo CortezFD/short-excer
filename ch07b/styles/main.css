@@ -138,15 +138,11 @@ position: relative
 	
 .menu {
 	display: flex;
-	flex-direction: row;
 	background-color: var(--primary-color);
 	padding: 0;
 	margin: 0;
 }
-.menu li {
-	flex: 1;
-	
-}
+
 .menu li:has(.submenu) {
 	position: relative;
 
