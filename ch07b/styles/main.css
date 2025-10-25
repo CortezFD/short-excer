@@ -195,5 +195,7 @@ a.current:hover{
 }
 .navbar .submenu-item:hover .submenu {
 	display: block;
+}
+.clr {
 	color: var(--light-accent)
 }
