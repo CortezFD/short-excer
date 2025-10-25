@@ -114,83 +114,93 @@ footer {
 		list-style: none;
 	}
 }
-nav {
+
+/* variables */
+:root {
+	--primary-color: #931420;
+	--accent-color: #f6bb73;
+	--light-accent: #fffded;
+	--light: white;
+	--dark: black;
 }
-.navbar ul{
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* the default styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin: auto;
+    border: 3px solid var(--primary-color);
+}
+header, section, aside, footer { padding: 1em; }
+h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
+ul { margin-left: 1em; }
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+a:focus, a:hover { font-style: italic; }
+
+/* Navbar styles */
+.navbar ul {
 	list-style-type: none;
-position: relative
+	position: relative;
+	padding: 0;
 }
+
 .navbar ul li {
+	position: relative;
 	float: left;
 }
 
 .navbar ul li a {
-	text-align: center;
-	Display: block;
+	display: block;
 	width: 100%;
 	padding: 1em 2.39em;
 	text-decoration: none;
 	background-color: var(--primary-color);
 	justify-content: space-evenly;
 	font-style: normal;
-}
-.menu li {
-	flex: 1;
-	
-}
-	
-.menu {
-	display: flex;
-	background-color: var(--primary-color);
-	padding: 0;
-	margin: 0;
+	color: white;
+	text-align: center;
 }
 
-.menu li:has(.submenu) {
-	position: relative;
+/* Submenu styles with :has() selector */
+.navbar ul li:has(.submenu:hover) .submenu {
+	display: block;
+}
 
-	& small {
-		margin-left: .25em;
-	}
-	&:hover > .submenu {
-		display: block;
-	}
-}
-ul {
-	list-style-type: none;
-}
 .submenu {
 	position: absolute;
-	left: 0;       
-	background-color: var(--primary-color);
-	display: none;}
-a.current {
-	 color: #f6bb73;
-	 text-decoration: none;
-}
-a.current:hover{
-	font-style: normal;
-}
-#navsubmenu ul{
-	list-style: none;
-	position: relative;
-}
-#navsubmenu ul li {
-	float: left;
-}
-#navsubmenu ul ul {
-	display: none;
-	position: absolute;
 	top: 100%;
+	left: 0;
+	background-color: var(--primary-color);
+	display: none;
+	width: 100%;
 }
-#navsubmenu ul ul li{
-	float: none;
+
+.submenu li a {
+	padding: 1em;
+	color: white;
+	background-color: var(--primary-color);
+	text-align: left;
 }
-#navsubmenu ul li:hover > ul {
-	display: block;
+
+.submenu li a:hover {
+	background-color: var(--accent-color);
 }
-#navsubmenu > ul::after {
-	content: "";
-	display: block;
-	clear: both;
+
+a.current {
+	color: #f6bb73;
+	text-decoration: none;
+}
+
+a.current:hover {
+	font-style: normal;
 }
