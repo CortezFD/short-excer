@@ -134,7 +134,10 @@ position: relative
 	justify-content: space-evenly;
 	font-style: normal;
 }
-
+.menu li {
+	flex: 1;
+	
+}
 	
 .menu {
 	display: flex;
