@@ -58,7 +58,7 @@ header {
 main {
 	clear: left;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 /* the styles for the section */
@@ -100,6 +100,9 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+header h2 {
+  display: none;
+}
 
 /* the styles for the navigation menu */
 nav {
@@ -128,6 +131,9 @@ nav {
 	}
 }
 @media only screen and (min-width: 768px) {
+	main {
+		flex-direction: row;
+	}
 	section {
 		order: 2;
 		flex-basis: 75%;
@@ -135,5 +141,10 @@ nav {
 	aside {
 		order: 1;
 		flex-basis: 25%;
+	}
+}
+@media screen and (min-width: 600px) {
+	header h2 {
+	  display: block;
 	}
 }
