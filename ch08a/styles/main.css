@@ -58,7 +58,7 @@ header {
 main {
 	clear: left;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 /* the styles for the section */
