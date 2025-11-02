@@ -144,8 +144,6 @@ footer {
 	display: block;
 }
 .menu {
-	position: absolute;
-	left: 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
