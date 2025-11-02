@@ -135,6 +135,7 @@ footer {
 	content:"\2630"
 }
 #checkbox-toggle {
+	display: none;
 }
 .menu-btn { padding: 1em; color: white;display: none;
 }
