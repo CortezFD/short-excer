@@ -147,7 +147,8 @@ footer {
 #checkbox-toggle:checked ~ .menu-btn::after {
 	content: "\2716";
 }
-
+#checkbox-toggle:checked ~ .menu { display: block;
+}
 #checkbox-toggle:checked + .menu-btn + .menu {
 	display: block;
 }
