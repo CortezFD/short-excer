@@ -134,11 +134,13 @@ footer {
 .menu-btn::after {
 	content:"\2630"
 }
-#checkbox-toggle {
+
+.menu-btn { padding: 1em; color: white;display: block;
+}
+#Checkbox-toggle {
 	display: none;
 }
-.menu-btn { padding: 1em; color: white;display: none;
-}
+
 
 #checkbox-toggle:checked ~ .menu-btn::after {
 	content: "\2716";
