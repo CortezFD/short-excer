@@ -113,6 +113,7 @@ footer {
 	& ul {
 		list-style-type: none;
 		margin: 0;
+		padding: 0;
 	}
 	& a {
 		display: block;
@@ -123,6 +124,7 @@ footer {
 	& a.current {
 		color: var(--accent-color);
 		font-weight: bold;
+	
 	}
 	& a.current:hover { 
 		font-style: normal; /* override hover effect */
