@@ -131,19 +131,22 @@ footer {
 	display: none;
 }
 .menu-btn::after {
-	content:"\2630;"
+	content:"\2630"
 }
 #checkbox-toggle {
 	display: none;
 }
 #checkbox-toggle:checked ~ .menu-btn::after {
-	content: "\2716;";
+	content: "\2716";
 }
 
 #checkbox-toggle:checked + .menu-btn + .menu {
 	display: block;
 }
 .menu {
+	position: absolute;
+	left: 0;
+	display: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
