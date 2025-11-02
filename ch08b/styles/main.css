@@ -133,7 +133,9 @@ footer {
 .menu-btn::after {
 	content:"\2630;"
 }
-
+#checkbox-toggle {
+	display: none;
+}
 
 #checkbox-toggle:checked + .menu-btn + .menu {
 	display: block;
