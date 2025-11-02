@@ -205,6 +205,9 @@ footer {
 	}
 	.navbar .menu {
 	display: block;
+		display: flex ;
+		position: relative;
+		justify-content: space-evenly;
 }
 	.menu {
 		display: block;
