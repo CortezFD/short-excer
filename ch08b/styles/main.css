@@ -127,7 +127,17 @@ footer {
 		font-style: normal; /* override hover effect */
 	}
 }
+.navbar .menu {
+	display: none;
+.navbar .menu-btn {
+	font-size: 30px;
+	cursor: pointer;
+	display: block;
+}
 
+#checkbox-toggle:checked + .menu-btn + .menu {
+	display: block;
+}
 .menu {
 	display: flex;
 	flex-wrap: wrap;
@@ -170,4 +180,6 @@ footer {
 		flex-basis: 25%;
 	}
 }
+
+@media only screen and (min-width: 562px) {
 
