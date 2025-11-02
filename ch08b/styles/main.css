@@ -129,11 +129,11 @@ footer {
 }
 .navbar .menu {
 	display: none;
-.navbar .menu-btn {
-	font-size: 30px;
-	cursor: pointer;
-	display: block;
 }
+.menu-btn::after {
+	content:"\2630;"
+}
+
 
 #checkbox-toggle:checked + .menu-btn + .menu {
 	display: block;
