@@ -203,7 +203,14 @@ footer {
 		order: 1;
 		flex-basis: 25%;
 	}
+	.menu {
+		display: flex ;
+		position: relative
+		justify-content: space-evenly;
+	
+	}
+	.menu-btn {
+		display: none;
+	}
 }
-
-@media only screen and (min-width: 562px) {
 
