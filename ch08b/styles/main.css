@@ -205,7 +205,7 @@ footer {
 	}
 	.menu {
 		display: flex ;
-		position: relative
+		position: relative;
 		justify-content: space-evenly;
 	
 	}
