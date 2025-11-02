@@ -203,6 +203,9 @@ footer {
 		order: 1;
 		flex-basis: 25%;
 	}
+	.navbar .menu {
+	display: block;
+}
 	.menu {
 		display: block;
 		display: flex ;
