@@ -108,6 +108,7 @@ footer {
 
 /* the styles for the navigation menu */
 .navbar {
+	position: relative;
 	background-color: var(--primary-color);
 	& ul {
 		list-style-type: none;
