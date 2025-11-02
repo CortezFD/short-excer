@@ -176,7 +176,7 @@ footer {
 .submenu {
 	position: absolute;
 	top:0;
-	left:-100%;
+	left:100%;
 	background-color: var(--primary-color);
 	color: var(--light);
 	width: 150%;
