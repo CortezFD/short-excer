@@ -164,8 +164,7 @@ footer {
 		margin-left: .25em; /* add space for arrow */
 	
 	}
-	& small::after {
-		content: "\25B6";
+	
 	&:hover > .submenu {
 		display: block;
 	}
