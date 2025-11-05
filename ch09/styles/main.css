@@ -156,7 +156,7 @@ footer {
 #checkbox-toggle:checked ~ .menu-btn::after {
 	content: "\2716";             /* close symbol */
 }
-ul {
+ul li{
 	padding: 1em;
 }
 ul.square {
