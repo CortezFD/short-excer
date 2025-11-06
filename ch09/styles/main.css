@@ -156,8 +156,19 @@ footer {
 #checkbox-toggle:checked ~ .menu-btn::after {
 	content: "\2716";             /* close symbol */
 }
+ul {
+	margin-left: 20px;
+}
 ul li{
-	padding: 0.8em;
+	padding: 0.5em;
+}
+a {
+    color: var(--accent-color);
+    text-decoration: underline; 
+}
+a:hover, a:focus {
+    color: var(--primary-color);
+    text-decoration: none; 
 }
 ul.square {
 	list-style-type: square;
