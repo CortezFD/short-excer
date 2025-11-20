@@ -30,6 +30,10 @@
         tbody td:last-child {
             text-align: right;
         }
+		@media (max-width: 640px) {
+			th, td { display: block; }
+		}
+		thead { display: none; }
 	</style>
 </head>
 
@@ -37,6 +41,7 @@
 <table>
 	<thead>
 		<tr>
+			<th>Department</th>
 			<th>Name</th>
 			<th>E-mail</th>
 			<th class="right">Years of Service</th>
@@ -44,9 +49,12 @@
 	</thead>
 	<tbody>
 		<tr>
+			<td>Editorial</td>
+		<tr>
 			<td>Joel Murach</td>
 			<td>joelmurach@yahoo.com</td>
 			<td>22</td>
+		</tr>
 		</tr>
 		<tr>
 			<td>Anne Boehm</td>
