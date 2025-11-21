@@ -49,21 +49,27 @@
 		
 		
 
-  @media (max-width: 640px) {
-    th,td {
-	  display: block;
-	}
- thead {
-	   display: none;
-	
- }
+  @media screen and (max-width: 640px) {
 
-tbody tr:nth-child(3n) {
-    background-color: gray;
+    th, td {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody tr:nth-child(3n) {
+        background-color: gray;
+    }
+
+    td.name, th.name {
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+
 }
-  }
-
-
+	
 
 	</style>
 </head>
@@ -83,40 +89,40 @@ tbody tr:nth-child(3n) {
 		
 		<tr>
 			<td class="spanfont" rowspan="3">Editorial</td>
-			<td>Joel Murach</td>
+			<td class="name">Joel Murach</td>
 			<td>joelmurach@yahoo.com</td>
 			<td>22</td>
 		
 		</tr>
 		<tr>
-			<td>Anne Boehm</td>
+			<td class="name">Anne Boehm</td>
 			<td>anne@murach.com</td>
 			<td>34</td>
 		</tr>
 		<tr>
-			<td>Zak Ruvalcaba</td>
+			<td class="name">Zak Ruvalcaba</td>
 			<td>zak@modulemedia.com</td>
 			<td>4</td>
 		</tr>
 		<tr>
 			<td class="spanfont" rowspan="2">Marketing</td>
-			<td>Judy Taylor</td>
+			<td class="name">Judy Taylor</td>
 			<td>judy@murach.com</td>
 			<td>39</td>
 		</tr>
 		<tr>
-			<td>Bethany Lee</td>
+			<td class="name">Bethany Lee</td>
 			<td>bethany@murach.com</td>
 			<td>10</td>
 		</tr>
 		<tr>
 			<td class="spanfont" rowspan="2">Customer Service</td>
-			<td>Kelly Slivkoff</td>
+			<td class="name">Kelly Slivkoff</td>
 			<td>kelly@murach.com</td>
 			<td>25</td>
 		</tr>
 		<tr>
-			<td>Juliette Baylon</td>
+			<td class="name">Juliette Baylon</td>
 			<td>juliette@murach.com</td>
 			<td>1</td>
 		</tr>
