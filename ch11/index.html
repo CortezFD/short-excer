@@ -63,13 +63,11 @@
         font-weight: bold;
     }
 
-    /* Add label before YEARS OF SERVICE for every row */
     tbody tr td:last-child::before {
         content: "Years of Service: ";
         font-weight: bold;
     }
 
-    /* Footer stays on one line */
     tfoot tr {
         display: flex;
         justify-content: space-between;
@@ -81,11 +79,13 @@
         border-bottom: none;
     }
 
-    /* REMOVE footer pseudo-label so no duplication occurs */
     tfoot td:last-child::before {
         content: "";
     }
 }
+tfoot td:last-child {
+            text-align: left;
+        }
     </style>
 </head>
 
