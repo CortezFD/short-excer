@@ -51,7 +51,7 @@
 
   @media (max-width: 640px) {
 
-    th, td {
+   table, thead, tbody, tr, th, td {
         display: block;
         width: 100%;
     }
@@ -60,48 +60,56 @@
         display: none;
     }
 
-    tfoot th,
-    tfoot td:first-of-type {
-        display: none;
-    }
-
-    tbody td:first-of-type {
+    /* Department headers (the green bars) */
+    td[rowspan] {
         background-color: lightgreen;
         font-weight: bold;
-        border-bottom: none;
-        font-size: 110%;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        font-size: 120%;
     }
 
-    table {
-        border: none;
+    /* Employee name rows (light gray background) */
+    tbody td:first-of-type:not([rowspan]) {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        padding-top: 0.75em;
     }
 
-    tbody td {
-        border-bottom: none;
-        border-top: 1px solid #000;
-    }
-
+    /* Email row label */
     tbody td:nth-of-type(2)::before {
         content: "E-mail: ";
         font-weight: bold;
         display: block;
     }
 
+    /* Years of Service label + number in SAME CELL */
     tbody td:nth-of-type(3)::before {
         content: "Years of Service: ";
         font-weight: bold;
-        display: block;
+        display: inline;
     }
 
-    tfoot td:nth-of-type(2)::before {
+    /* Remove table borders for mobile */
+    table {
+        border: none;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding: .5em;
+    }
+
+    /* Footer formatting */
+    tfoot th,
+    tfoot td:first-of-type {
+        display: none;
+    }
+
+    tfoot td:last-of-type::before {
         content: "Total Years of Service: ";
         font-weight: bold;
-        display: block;
-    }
-
-    td::before {
-        position: relative;
-        left: 0;
+        display: inline;
     }
 }
 
