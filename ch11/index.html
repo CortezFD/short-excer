@@ -48,7 +48,7 @@
             font-weight: bold;
         }
 
-  @media screen and (max-width: 640px) {
+ @media screen and (max-width: 640px) {
 
     th, td {
         display: block;
@@ -63,13 +63,13 @@
         font-weight: bold;
     }
 
-    /* Add label before the YEARS OF SERVICE number cells */
-    tbody td:nth-child(4)::before {
+    /* Add label before YEARS OF SERVICE for every row */
+    tbody tr td:last-child::before {
         content: "Years of Service: ";
         font-weight: bold;
     }
 
-    /* Footer: keep totals on one line */
+    /* Footer stays on one line */
     tfoot tr {
         display: flex;
         justify-content: space-between;
@@ -81,14 +81,11 @@
         border-bottom: none;
     }
 
-    /* Add footer label before 105 */
+    /* REMOVE footer pseudo-label so no duplication occurs */
     tfoot td:last-child::before {
-        content: "Years of Service: ";
-        font-weight: bold;
-        margin-right: 0.3em;
+        content: "";
     }
 }
-
     </style>
 </head>
 
