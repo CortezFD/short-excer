@@ -48,12 +48,59 @@
 		}
 		
 		@media (max-width: 640px) {
-			th, td { display: block; }
-		}
-		.spanfont {
-			font-weight: bold;
-		}
-		
+		  th, td {
+        display: block;
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tfoot th,
+    tfoot td:first-of-type {
+        display: none;
+    }
+
+    tbody td:first-of-type {
+        background-color: #d4f5d4;
+        font-weight: bold;
+        border-bottom: none;
+        font-size: 110%;
+    }
+
+    table {
+        border: none;
+    }
+
+    tbody td {
+        border-bottom: none;
+        border-top: 1px solid #000;
+    }
+
+    tbody td:nth-of-type(2)::before {
+        content: "E-mail: ";
+        font-weight: bold;
+        display: block;
+    }
+
+    tbody td:nth-of-type(3)::before {
+        content: "Years of Service: ";
+        font-weight: bold;
+        display: block;
+    }
+
+    tfoot td:nth-of-type(2)::before {
+        content: "Total Years of Service: ";
+        font-weight: bold;
+        display: block;
+    }
+
+    td::before {
+        position: relative;
+        left: 0;
+    }
+}
 	
 	</style>
 </head>
