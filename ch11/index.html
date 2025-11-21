@@ -48,32 +48,46 @@
             font-weight: bold;
         }
 
-        @media screen and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
 
-            th, td {
-                display: block;
-            }
+    th, td {
+        display: block;
+    }
 
-            thead {
-                display: none;
-            }
+    thead {
+        display: none;
+    }
 
-            td.name {
-                background-color: lightgray;
-                font-weight: bold;
-            }
+    td.name {
+        background-color: lightgray;
+        font-weight: bold;
+    }
 
-            tfoot tr {
-                display: flex;
-                justify-content: space-between;
-            }
+    /* Add label before the YEARS OF SERVICE number cells */
+    tbody td:nth-child(4)::before {
+        content: "Years of Service: ";
+        font-weight: bold;
+    }
 
-            tfoot td {
-                display: inline;
-                width: auto;
-                border-bottom: none;
-            }
-        }
+    /* Footer: keep totals on one line */
+    tfoot tr {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    tfoot td {
+        display: inline;
+        width: auto;
+        border-bottom: none;
+    }
+
+    /* Add footer label before 105 */
+    tfoot td:last-child::before {
+        content: "Years of Service: ";
+        font-weight: bold;
+        margin-right: 0.3em;
+    }
+}
 
     </style>
 </head>
