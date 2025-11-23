@@ -1,10 +1,10 @@
-/* variables */
 :root {
-    --light: white;
-    --dark: black;
+    --light: #ffffff;
+    --dark: #000000;
+    --invalid: red;
+    --valid: green;
 }
 
-/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -18,18 +18,66 @@ body {
     margin: auto;
     padding: 1em;
 }
-h1, h2, h3 {
+
+h1, h2 {
     padding-bottom: .5em;
 }
-form, input, select, textarea {
-    width:100%;
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
 }
-input, select, button {
-    font-size: inherit;
-    padding: .25em;
-    margin-bottom: .5em;
-    border-radius: 5px;
+
+legend {
+    font-weight: bold;
 }
+
 label {
     display: block;
+    margin-top: .5em;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: .25em;
+    margin-top: .25em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+input:invalid, textarea:invalid {
+    border: 2px solid var(--invalid);
+}
+
+input:valid, textarea:valid {
+    border: 2px solid var(--valid);
+}
+
+button {
+    width: 120px;
+    padding: .5em;
+    margin-right: 1em;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn {
+    transition: .2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-submit {
+    background-color: #2e7d32;
+}
+
+.btn-reset {
+    background-color: #c62828;
 }
